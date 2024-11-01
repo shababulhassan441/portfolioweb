@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { IoIosArrowForward } from "react-icons/io";
+import Image from "next/image";
 
 const AccordionItem = ({ company, position, duration, description, image }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ const AccordionItem = ({ company, position, duration, description, image }) => {
   return (
     <div className="flex justify-start mb-1 rounded-lg">
       <div className="w-[150px] flex-[1]">
-        <img className=" w-full rounded-full" src={image} />
+        <Image placeholder="blur" className=" w-full rounded-full" alt="profile" src={image} />
       </div>
       <div className="group flex-[9]">
         <div

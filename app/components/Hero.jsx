@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="w-[120px]">
         <span className="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
-          <Image width={100} height={100} src={image} alt="profile" />
+          <Image placeholder="blur" src={image} alt="profile" />
         </span>
       </div>
     </section>

@@ -1,20 +1,32 @@
+import image1 from "@/public/gallery/image1.jpg";
+import image9 from "@/public/gallery/image9.jpg";
+import image6 from "@/public/gallery/image6.jpg";
+import image2 from "@/public/gallery/image2.jpg";
+import image4 from "@/public/gallery/image4.jpg";
+import image10 from "@/public/gallery/image10.jpg";
+import image5 from "@/public/gallery/image5.jpg";
+import image7 from "@/public/gallery/image7.jpg";
+import image3 from "@/public/gallery/image3.jpg";
+import profieimg from "@/public/me-ios.png";
+import noImage from "@/public/no-image.jpg";
+
 export const photoGallery = [
-  { image: "/image1.jpg" },
-  { image: "/image9.jpg" },
-  { image: "/image6.jpg" },
-  { image: "/image2.jpg" },
-  { image: "/image4.jpg" },
-  { image: "/image10.jpg" },
-  { image: "/image5.jpg" },
-  { image: "/image7.jpg" },
-  { image: "/image3.jpg" },
+  { image: image1 },
+  { image: image9 },
+  { image: image6 },
+  { image: image2 },
+  { image: image4 },
+  { image: image10 },
+  { image: image5 },
+  { image: image7 },
+  { image: image3 },
 ];
 
 export const heroData = [
   {
     heading: "hi, i'm dillion 👋",
     para: " Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
-    image: "/me-ios.png",
+    image: profieimg,
   },
 ];
 
@@ -315,7 +327,7 @@ export const hackathonsCardData = [
     location: "London, Ontario",
     project:
       "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "Hack The North",
@@ -323,7 +335,7 @@ export const hackathonsCardData = [
     location: "Waterloo, Ontario",
     project:
       "Developed a mobile application which delivers university campus-wide events in real time to all students.",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "FirstNet Public Safety Hackathon",
@@ -331,7 +343,7 @@ export const hackathonsCardData = [
     location: "San Francisco, California",
     project:
       "Developed a mobile application which communicates a victim's medical data from inside an ambulance to doctors at the hospital.",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "DeveloperWeek Hackathon",
@@ -339,7 +351,7 @@ export const hackathonsCardData = [
     location: "San Francisco, California",
     project:
       "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["github"],
   },
   {
@@ -349,7 +361,7 @@ export const hackathonsCardData = [
     project:
       "Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.",
     source: ["Github", "Devpost", "ML", "iOS", "Server"],
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "ETH Waterloo",
@@ -357,7 +369,7 @@ export const hackathonsCardData = [
     location: "Waterloo, Ontario",
     project:
       "Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Organization"],
   },
   {
@@ -366,7 +378,7 @@ export const hackathonsCardData = [
     location: "Waterloo, Ontario",
     project:
       "Developed a virtual reality application allowing users to see themselves in third person.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Streamer Source", "Client Source"],
   },
   {
@@ -375,7 +387,7 @@ export const hackathonsCardData = [
     location: "Toronto, Ontario",
     project:
       "Developed an open platform for people shipping items to the same place to combine shipping costs and save money.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Source", "site"],
   },
   {
@@ -384,7 +396,7 @@ export const hackathonsCardData = [
     location: "Toronto, Ontario",
     project:
       "Developed a Chrome extension which tracks which Facebook profiles you have visited and immediately texts your girlfriend if you visited another girl's page.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Source"],
   },
   {
@@ -394,14 +406,14 @@ export const hackathonsCardData = [
     project:
       "Developed a python library which can be imported to any python game and change difficulty of the game based on real time emotion of player. Uses OpenCV and webcam for facial recognition, and a custom Machine Learning Model trained on a [Kaggle Emotion Dataset] (https://www.kaggle.com/c/challenges-in-representation- learning-facial-expression-recognition-challenge/leaderboard) using [Tensorflow] (https://www.tensorflow.org/Tensorflow) and [Keras](https://keras.io/). This project recieved 1st Place prize at the Global A1 Hackathon - Toronto and was also invited to demo at [NextAl Canada](https://www.nextcanada.com/next-ai).",
     source: ["Article", "Source"],
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "McGill AI for Social Innovation Hackathon",
     date: "June 17th - 18th, 2017",
     location: "Montreal, Quebec",
     project: "Developed real-time facial microexpression analyzer using AI.",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "Open Source Circular Economy Days Hackathon",
@@ -410,7 +422,7 @@ export const hackathonsCardData = [
     project:
       "Developed a custom admin interface for food waste startup Genecis to manage their data and provide analytics.",
     source: ["Source"],
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "Make School's Student App Competition 2017",
@@ -418,14 +430,14 @@ export const hackathonsCardData = [
     location: "International",
     project: "Improved PocketDoc and submitted to online competition.",
     source: ["Medium Article", "Devpost", "YouTube", "source"],
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "HackMining",
     date: "May 12th - 14th, 2017",
     location: "Toronto, Ontario",
     project: "Developed a neural network to optimize a mining process.",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "Waterloo Equithon",
@@ -434,7 +446,7 @@ export const hackathonsCardData = [
     project:
       "Developed Pocketdoc, an app in which you take a picture of a physical wound, and the app returns common solutions or cures to the injuries or diseases.",
     source: ["Devpost", "YouTube", "source"],
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "SpaceApps Waterloo",
@@ -443,7 +455,7 @@ export const hackathonsCardData = [
     project:
       "Developed Earthwatch, a web application which allows users in a plane to virtually see important points of interest about the world below them. They can even choose to fly away from their route and then fly back if they choose. Special thanks to CesiumJS for providing open source world and plane models.",
     source: ["Source"],
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "MHacks 9",
@@ -451,7 +463,7 @@ export const hackathonsCardData = [
     location: "Ann Arbor, Michigan",
     project:
       "Developed Super Graphic Air Traffic, a VR website made to introduce people to the world of air traffic controlling. This project was built completely using THREE.js as well as a node backend server.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Source"],
   },
   {
@@ -461,7 +473,7 @@ export const hackathonsCardData = [
     project:
       "Developed at StartHacks 2017, Recipic is a mobile app which allows you to take pictures of ingredients around your house, and it will recognize those ingredients using ClarifAI image recognition API and return possible recipes to make. Recipic recieved 1st place at the hackathon for best pitch and hack..",
     source: ["Source (Mobile)", "Source (Server)"],
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     event: "QHacks II",
@@ -469,7 +481,7 @@ export const hackathonsCardData = [
     location: "Kingston, Ontario",
     project:
       "Developed a mobile game enabling a city-wide manhunt with random lobbies.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Source (Mobile)", "Source (API)"],
   },
   {
@@ -478,7 +490,7 @@ export const hackathonsCardData = [
     location: "Waterloo, Ontario",
     project:
       "Developed a mock of Windows 11 with unique notifications and functionality.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Source"],
   },
   {
@@ -487,7 +499,7 @@ export const hackathonsCardData = [
     location: "Kingston, Ontario",
     project:
       "Developed an internal widget for uploading assignments using Waterloo's portal app.",
-    image: "no-image.jpg",
+    image: noImage,
     source: ["Source"],
   },
 ];
@@ -495,7 +507,7 @@ export const hackathonsCardData = [
 export const workExperienceData = [
   {
     company: "Atomic Finance",
-    image: "no-image.jpg",
+    image: noImage,
     position: "Bitcoin Protocol Engineer",
     duration: "May 2021 - Oct 2022",
     description:
@@ -503,7 +515,7 @@ export const workExperienceData = [
   },
   {
     company: "Shopify",
-    image: "no-image.jpg",
+    image: noImage,
     position: "Software Engineer",
     duration: "January 2021 - April 2021",
     description:
@@ -511,7 +523,7 @@ export const workExperienceData = [
   },
   {
     company: "Nvidia",
-    image: "no-image.jpg",
+    image: noImage,
     position: "Software Engineer",
     duration: "January 2020 - April 2020",
     description:
@@ -519,7 +531,7 @@ export const workExperienceData = [
   },
   {
     company: "Splunk",
-    image: "no-image.jpg",
+    image: noImage,
     position: "Software Engineer",
     duration: "January 2019 - April 2019",
     description:
@@ -527,7 +539,7 @@ export const workExperienceData = [
   },
   {
     company: "Lime",
-    image: "no-image.jpg",
+    image: noImage,
     position: "Software Engineer",
     duration: "January 2018 - April 2018",
     description:
@@ -535,7 +547,7 @@ export const workExperienceData = [
   },
   {
     company: "Mitre Media",
-    image: "no-image.jpg",
+    image: noImage,
     position: "Software Engineer",
     duration: "May 2017 - August 2017",
     description:
@@ -548,24 +560,24 @@ export const educationData = [
     institution: "Buildspace",
     degree: ["s3", "s4", "sf1", "s5"],
     years: "2023 - 2024",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     institution: "University of Waterloo",
     degree: "Bachelor's in Computer Science (BCS)",
     years: "2016 - 2021",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     institution: "Wilfrid Laurier University",
     degree: "Bachelor's Business Administration (BBA)",
     years: "2016 - 2021",
-    image: "no-image.jpg",
+    image: noImage,
   },
   {
     institution: "International Baccalaureate",
     degree: "IB Diploma",
     years: "2012 - 2016",
-    image: "no-image.jpg",
+    image: noImage,
   },
 ];

@@ -9,7 +9,7 @@ const Photos = () => {
         {photoGallery.map(({ image }, index) => {
           return (
             <div key={index}>
-              <Image placeholder="blur" className="aspect-w-16 aspect-h-9 mb-4 w-full rounded-lg object-cover" width={100} height={100} src={image} alt="image" />
+              <Image placeholder="blur" className="mb-4 w-full rounded-lg object-cover" src={image} alt="image" />
             </div>
           );
         })}
