@@ -32,19 +32,19 @@ const navbarLinks = {
   ],
   right: [
     {
-      link: "/github.com",
+      link: "https://dub.sh/dillion-github",
       icon: <FaGithub size={17} />,
     },
     {
-      link: "/linkedin.com",
+      link: "https://dub.sh/dillion-linkedin",
       icon: <FaLinkedin size={17} />,
     },
     {
-      link: "/twitter.com",
+      link: "https://dub.sh/dillion-twitter",
       icon: <FaXTwitter size={17} />,
     },
     {
-      link: "/youtube.com",
+      link: "https://dub.sh/dillion-youtube",
       icon: <BsYoutube size={17} />,
     },
   ],

@@ -7,13 +7,13 @@ const AccordionItem = ({ company, position, duration, description, image }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex justify-start mb-1 rounded-lg">
+    <div className="flex sm:justify-start mb-1 rounded-lg">
       <div className="w-[150px] flex-[1]">
         <Image placeholder="blur" className=" w-full rounded-full" alt="profile" src={image} />
       </div>
       <div className="group flex-[9]">
         <div
-          className="flex justify-between items-center p-4 py-2 cursor-pointer rounded-lg"
+          className="flex justify-between items-center p-4 sm:py-2 py-0 cursor-pointer rounded-lg"
           onClick={() => setIsOpen(!isOpen)}
         >
           <div className="flex flex-col">

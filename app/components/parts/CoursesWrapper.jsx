@@ -6,7 +6,7 @@ const CoursesWrapper = () => {
       key={index}
       className="max-w-full text-pretty font-sans text-sm scroll-mb-16"
     >
-      <h3 className="text-[18px] text-black/80 capitalize font-bold leading-7">
+      <h3 className="text-[18px] dark:text-white text-black/80 capitalize font-bold leading-7">
         {course.university}
       </h3>
       {course.courses.map(({ code, title, link }, index) => (
