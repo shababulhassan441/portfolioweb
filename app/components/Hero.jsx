@@ -1,5 +1,7 @@
 import React from "react";
 import { heroData } from "../data/data";
+import Image from "next/image";
+
 const Hero = () => {
   return heroData.map(({ heading, para, image },index) => (
     <section key={index} className="flex justify-between items-start gap-[6px] ">
@@ -11,7 +13,7 @@ const Hero = () => {
       </div>
       <div className="w-[120px]">
         <span className="relative flex shrink-0 overflow-hidden rounded-full size-28 border">
-          <img className=" aspect-square h-full w-[100%]" src={image} alt="" />
+          <Image width={100} height={100} src={image} alt="profile" />
         </span>
       </div>
     </section>

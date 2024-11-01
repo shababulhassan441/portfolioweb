@@ -1,20 +1,20 @@
 export const photoGallery = [
-  { image: "image1.jpg" },
-  { image: "image9.jpg" },
-  { image: "image6.jpg" },
-  { image: "image2.jpg" },
-  { image: "image4.jpg" },
-  { image: "image10.jpg" },
-  { image: "image5.jpg" },
-  { image: "image7.jpg" },
-  { image: "image3.jpg" },
+  { image: "/image1.jpg" },
+  { image: "/image9.jpg" },
+  { image: "/image6.jpg" },
+  { image: "/image2.jpg" },
+  { image: "/image4.jpg" },
+  { image: "/image10.jpg" },
+  { image: "/image5.jpg" },
+  { image: "/image7.jpg" },
+  { image: "/image3.jpg" },
 ];
 
 export const heroData = [
   {
     heading: "hi, i'm dillion 👋",
     para: " Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
-    image: "me-ios.png",
+    image: "/me-ios.png",
   },
 ];
 
