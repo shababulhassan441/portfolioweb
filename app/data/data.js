@@ -749,7 +749,6 @@ const SkeletonFour = () => {
         <Image
           alt="image"
           src={noImage}
-          alt="avatar"
           height="100"
           width="100"
           className="rounded-full h-10 w-10"
@@ -765,7 +764,6 @@ const SkeletonFour = () => {
         <Image
           alt="image"
           src={noImage}
-          alt="avatar"
           height="100"
           width="100"
           className="rounded-full h-10 w-10"
@@ -784,7 +782,6 @@ const SkeletonFour = () => {
         <Image
           alt="image"
           src={noImage}
-          alt="avatar"
           height="100"
           width="100"
           className="rounded-full h-10 w-10"
@@ -838,7 +835,6 @@ const SkeletonFive = () => {
         <Image
           alt="image"
           src={noImage}
-          alt="avatar"
           height="100"
           width="100"
           className="rounded-full h-10 w-10"
