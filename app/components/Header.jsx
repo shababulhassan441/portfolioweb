@@ -5,6 +5,7 @@ import { IoCodeSharp } from "react-icons/io5";
 import { PiPencilLineDuotone } from "react-icons/pi";
 import { SlNotebook } from "react-icons/sl";
 import { FaGithub } from "react-icons/fa";
+import { MdOutlineProductionQuantityLimits } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { BsYoutube } from "react-icons/bs";
@@ -28,6 +29,10 @@ const navbarLinks = {
     {
       link: "/notes",
       icon: <SlNotebook size={17} />,
+    },
+    {
+      link: "/product-engineering",
+      icon: <MdOutlineProductionQuantityLimits size={17} />,
     },
   ],
   right: [
