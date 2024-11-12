@@ -7,6 +7,8 @@ import {
 } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { FaTableColumns } from "react-icons/fa6";
+import { FaRegStickyNote } from "react-icons/fa";
 
 import image1 from "@/public/gallery/image1.jpg";
 import image9 from "@/public/gallery/image9.jpg";
@@ -678,10 +680,10 @@ const SkeletonTwo = () => {
         <motion.div
           key={"skelenton-two" + i}
           variants={variants}
-          style={{
-            maxWidth: Math.random() * (100 - 40) + 40 + "%",
-          }}
-          className="flex flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-black w-full h-4"
+          // style={{
+          //   maxWidth: Math.random() * (100 - 40) + 40 + "%",
+          // }}
+          className="flex max-w-[100%] mx-auto flex-row rounded-full border border-neutral-100 dark:border-white/[0.2] p-2  items-center space-x-2 bg-neutral-100 dark:bg-black w-full h-4"
         ></motion.div>
       ))}
     </motion.div>
@@ -706,12 +708,12 @@ const SkeletonThree = () => {
         repeat: Infinity,
         repeatType: "reverse",
       }}
-      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
-      style={{
-        background:
-          "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
-        backgroundSize: "400% 400%",
-      }}
+      className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-gradient-to-r from-[#ee7752] to-[#e73c7e] bg-[length:400%_400%] rounded-lg bg-dot-black/[0.2] flex-col space-y-2"
+      // style={{
+      //   background:
+      //     "linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)",
+      //   backgroundSize: "400% 400%",
+      // }}
     >
       <motion.div className="h-full w-full rounded-lg"></motion.div>
     </motion.div>
@@ -871,7 +873,7 @@ export const items = [
     ),
     header: <SkeletonOne />,
     className: "md:col-span-1",
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+    icon: <FaTableColumns className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "UI/UX Design",
@@ -882,7 +884,7 @@ export const items = [
     ),
     header: <SkeletonTwo />,
     className: "md:col-span-1",
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+    icon: <FaRegStickyNote className="h-4 w-4 text-neutral-500" />,
   },
   {
     title: "MVP Development",
